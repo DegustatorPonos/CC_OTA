@@ -39,7 +39,7 @@ end
 local function main()
     while true do
         UpdateApp()
-        print("App " .. App["FileName"] .. "Updated")
+        print("App " .. App["FileName"] .. " is updated")
         parallel.waitForAny(WaitFunc, RunApp)
     end
 end
