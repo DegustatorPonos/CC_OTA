@@ -24,6 +24,9 @@ end
 
 local function RunApp()
     os.run({}, App["FileName"])
+    -- So that it doesn't trigger the update if finished
+    while true do
+    end
 end
 
 local function WaitFunc()
