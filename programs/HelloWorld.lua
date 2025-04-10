@@ -4,6 +4,6 @@ while true do
         print("Terminated")
         break
     end
-    print("Hello, world!")
+    print("Hello, world! from OTA")
     sleep(1)
 end
