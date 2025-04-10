@@ -1,1 +1,3 @@
-print("Helllo, world!")
+while true do
+    print("Helllo, world!")
+end
