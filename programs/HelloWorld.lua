@@ -1,9 +1,9 @@
 while true do
-    local ev = os.pullEvemt("ota_eol")
+    local ev = os.pullEvent("ota_eol")
     if not ev then
         print("Terminated")
         break
     end
-    print("Helllo, world!")
+    print("Hello, world!")
     sleep(1)
 end
